@@ -1,0 +1,112 @@
+.sidebar--team {
+  overflow: scroll;
+  margin-top: -45px;
+}
+
+.member__module {
+  overflow: hidden;
+  margin-top: 45px;
+  outline: 1px solid #CCC;
+  padding: 5px;
+  transition: all 100ms linear;
+}
+
+.member__module:hover, .member__module--selected {
+  outline-width: 3px;
+  outline-color: #BBB;
+}
+
+.member__module--selected {
+  outline-color: #02caaa;
+}
+
+.member__module--selected:hover {
+  outline-color: #02caaa;
+  cursor: default;
+}
+
+.member__image {
+  width: 80px;
+  border-radius: 100%;
+  float: left;
+  border: 2px solid #02caaa;
+}
+
+.member__detail {
+  margin-top: 45px;
+}
+
+.member__name {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.detail__header {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 45px;
+  padding: 30px 30px 0px 30px;
+}
+
+.detail__title {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.detail__title h2, .detail__title p {
+  font-size: calc(100% + 2vw);
+}
+
+.detail__img {
+  width: 20vw;
+  margin-right: 10%;
+  float: left;
+  border-radius: 100%;
+}
+
+.message__detail .detail__header {
+  margin-bottom: 0;
+}
+
+.message__detail .detail__title {
+  position: relative;
+}
+
+.message__content {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.message__actions .button {
+  float: left;
+  margin-right: 20px;
+}
+
+.user__message {
+  margin: 0px auto;
+}
+
+.activity__module {
+  margin-top: 45px;
+}
+
+.activty__module:last-child {
+  margin-bottom: 45px;
+}
+
+.admin__fill-alone {
+  background-image: url(../images/desert.jpg);
+  background-position: 0% 50%;
+}
+
+.admin__fill-friends {
+  background-image: url(../images/friends.jpg);
+  background-position: 0% 60%;
+}
+
+.module__title {
+  width: 50%;
+  margin: 0;
+}

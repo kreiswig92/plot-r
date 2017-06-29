@@ -1,0 +1,17 @@
+.form__title {
+  color: #02caaa;
+  border-color: #02caaa;
+}
+
+.page__form {
+  background-color: #e8fff5;
+}
+
+.page__form input[type="submit"] {
+  background-color: #02caaa;
+  color: #FFF;
+}
+
+.page__form input[type="submit"]:hover {
+  background-color: #4080d2;
+}

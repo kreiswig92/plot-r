@@ -1,0 +1,35 @@
+.home__fill-a {
+  background-image: url(../images/teal_splash.jpg);
+}
+
+.home__fill-b {
+  background-image: url(../images/ocean_splash.jpg);
+  margin-top: -100px;
+}
+
+.home__fill-c {
+  background-image: url(../images/island_splash.jpg);
+  margin-bottom: 0;
+  background-position: 70% 0%;
+}
+
+.home__fill-c .button {
+  margin-top: 50px;
+}
+
+.home__section-a .section--split2:first-child {
+  width: 30%;
+}
+
+.home__section-a .section--split2:last-child {
+  width: 70%;
+}
+
+.section--display-a, .section--display-a .section__filter {
+  border-radius: 20px;
+}
+
+.section--display-a {
+  background-image: url(../images/com.jpg);
+  background-position: 40% 0%;
+}

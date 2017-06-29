@@ -1,0 +1,45 @@
+.form__title {
+  border-bottom: 5px solid rgba(255,255,255,0.0);
+  width: 45%;
+  font-weight: 200;
+  font-size: 41px;
+}
+
+.page__form {
+  width: 45%;
+  padding: 30px;
+  margin: 0px auto 50px auto;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.page__form label {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+.page__form input {
+  display: inline-block;
+  width: 50%;
+  height: 40px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.page__form input[type="submit"] {
+  display: block;
+  border: 0 none;
+  padding: 15px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  float: right;
+  margin-top: 20px;
+}
+
+.form__image {
+  width: 20%;
+  border-radius: 100%;
+}

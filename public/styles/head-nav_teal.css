@@ -1,0 +1,31 @@
+.header {
+  border-color: #02caaa;
+}
+
+.header__title {
+  color: #4080d2;
+}
+
+.header__nav a {
+  color: #4080d2;
+  transition: .1s background-color linear;
+}
+
+.header__nav a.active {
+  background-color: #02caaa;
+  color: #fff;
+}
+
+.header__nav a:not(.active):hover {
+  background-color: #02caaa;
+  color: #d2f8fe;
+}
+
+.header__login input[type=text]:focus, .header__login input[type=password]:focus {
+  outline-color: #02caaa;
+}
+
+.header__login input[type=submit] {
+  background: #4080d2;
+  color: #FFF;
+}
